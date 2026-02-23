@@ -12,7 +12,7 @@ services:
       - key: MODEL_PATH
         value: models/house_price_model.joblib
       - key: ALLOWED_ORIGINS
-        value: https://pravah-s-ogwt.vercel.app,http://localhost:3000
+        value: https://pravah-s-ogwt.vercel.app,https://pravah-s-ogwt-riwanhoct-aayush-shuklas-projects-75376fcc.vercel.app,http://localhost:3000
       - key: LOG_LEVEL
         value: WARNING
       - key: PYTHON_VERSION
