@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import styles from "./page.module.css";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://pravah-s-2.onrender.com";
 
 /* ─── Helpers ─── */
 function formatPrice(num) {
@@ -215,10 +215,10 @@ export default function Home() {
           <div className={styles.headerRight}>
             <span
               className={`badge ${apiStatus === "connected"
-                  ? "badge-success"
-                  : apiStatus === "error"
-                    ? "badge-warning"
-                    : "badge-info"
+                ? "badge-success"
+                : apiStatus === "error"
+                  ? "badge-warning"
+                  : "badge-info"
                 }`}
             >
               <span
