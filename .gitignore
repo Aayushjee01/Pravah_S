@@ -1,0 +1,31 @@
+# Root .gitignore for full project
+
+# Python caches and compiled files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Virtual environments
+backend/.venv/
+frontend/.venv/
+
+# Node modules
+frontend/node_modules/
+
+# Model artifacts (trained bundles)
+backend/models/
+
+# Env files
+*.env
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
