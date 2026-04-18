@@ -16,7 +16,8 @@ frontend/node_modules/
 backend/models/
 
 # Env files
-*.env
+.env
+.env.*
 !.env.example
 
 # macOS

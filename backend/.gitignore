@@ -22,6 +22,7 @@ env/
 
 # Environment
 .env
+.env.*
 !.env.example
 
 # Model artifacts (generated during training)
